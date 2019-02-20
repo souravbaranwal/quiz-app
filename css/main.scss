@@ -1,0 +1,70 @@
+*:focus {
+    outline: none;
+}
+
+body {
+    background-color: rgb(212, 212, 212);
+
+    // .container {
+    //     padding: 50px;
+    //     text-align: center;
+    //     width: 80%;
+    //     box-shadow: inset 0px 0px 20px -3px rgba(0, 0, 0, 0.75);
+    //     width: 45%;
+    //     height: 289.2px;
+    //     background: #E7A61A;
+    //     transition: all 1s ease-in-out;
+    // }
+
+
+    // .container:hover {
+    //     box-shadow: 0px 0px 20px -3px rgba(0, 0, 0, 0.75);
+    //     background: rgb(189, 129, 0);
+    // }
+
+    .container {
+        padding: 50px;
+        text-align: center;
+        width: 80%;
+        box-shadow: 0px 0px 20px -3px rgba(0, 0, 0, 0.75);
+        
+        width: 45%;
+        height: 289.2px;
+        background: #E7A61A;
+        transition: all 1s ease-in-out;
+    }
+
+
+    .container:hover {
+        box-shadow: inset 0px 0px 20px -3px rgba(0, 0, 0, 0.75);
+        background: rgb(189, 129, 0);
+    }
+}
+
+h2 {
+    color: white;
+
+}
+
+.displayQuiz {
+    text-align: center;
+
+    p {
+        color: white;
+    }
+
+    button {
+        margin: 0 8px;
+        border-radius: 5px;
+        padding: 5px;
+        border: none;
+        background: #4288CC;
+        color: white;
+        box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.75);
+        transition: all .3s ease-in-out;
+    }
+
+    button:hover {
+        background: rgb(50, 109, 177);
+    }
+}

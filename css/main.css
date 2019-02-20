@@ -1,0 +1,38 @@
+*:focus {
+  outline: none; }
+
+body {
+  background-color: #d4d4d4; }
+  body .container {
+    padding: 50px;
+    text-align: center;
+    width: 80%;
+    box-shadow: 0px 0px 20px -3px rgba(0, 0, 0, 0.75);
+    width: 45%;
+    height: 289.2px;
+    background: #E7A61A;
+    transition: all 1s ease-in-out; }
+  body .container:hover {
+    box-shadow: inset 0px 0px 20px -3px rgba(0, 0, 0, 0.75);
+    background: #bd8100; }
+
+h2 {
+  color: white; }
+
+.displayQuiz {
+  text-align: center; }
+  .displayQuiz p {
+    color: white; }
+  .displayQuiz button {
+    margin: 0 8px;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    background: #4288CC;
+    color: white;
+    box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.75);
+    transition: all .3s ease-in-out; }
+  .displayQuiz button:hover {
+    background: #326db1; }
+
+/*# sourceMappingURL=main.css.map */

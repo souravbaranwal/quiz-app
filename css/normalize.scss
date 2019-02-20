@@ -1,0 +1,172 @@
+:root {
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+	
+}
+	$text-color1:#161616;
+	$text-color2:white;
+	$text-color3:#ECAF4E;
+	$text-color4:#713234;
+	$text-color5:#9A7A17;
+	$text-color6:rgb(170, 163, 159);
+	$text-color7: #8C710D;
+	$bg-color1:#ECAF4E;
+	$bg-color2:#F5E3D7;
+	$bg-color3:#fff;
+	$bg-color4:#FC683E;
+	$bg-color5:#161616;
+	
+/*=======================================*/
+/*  CSS Resets  */
+/*=======================================*/
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*=======================================*/
+/*  Base CSS   */
+/*=======================================*/
+
+h1 {
+	font-size: 6.5rem;
+	line-height: 1.5;
+}
+h2 {
+	font-size: 4rem;
+	line-height: 1.5;
+}
+h3 {
+	font-size: 3rem;
+	line-height: 1.5;
+}
+h4 {
+	font-size: 2rem;
+	line-height: 1.5;
+}
+h5 {
+	font-size: 1rem;
+	line-height: 1.5;
+}
+h6 {
+	font-size: 0.6rem;
+	line-height: 1.5;
+}
+p {
+	font-size: 1.4rem;
+	line-height: 1.5;
+	font-weight: 300;
+}
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: white;
+	letter-spacing: .08rem;
+}
+b {
+	font-weight: 400;
+}
+i {
+	font-size: 1rem;
+}
+
+/*=======================================*/
+/* General CSS  */
+/*=======================================*/
+body {
+	background-color: white;
+	padding: 4rem;
+}
+.container {
+	width: 100%;
+	background: #EEEEEE;
+	margin: 0 auto;
+}
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+.text-left {
+	text-align: left;
+}
+.float-right {
+	float: right;
+}
+.float-left {
+	float: left;
+}
+/*=======================================*/
+/*  Flex */
+/*=======================================*/
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+/*=======================================*/
+/*  Button */
+/*=======================================*/
+.btn {
+	color: $text-color1;
+	border: $text-color1 3px solid;
+	border-radius: 2.3rem;
+	padding: .8rem 2rem;
+	font-weight: 600;
+}
+
+
+
+/*=======================================*/
+/*  Main Css */
+/*=======================================*/

@@ -1,0 +1,82 @@
+*:focus {
+  outline: none; }
+
+body {
+  background-color: #EEEEEE; }
+  body .container {
+    padding: 50px;
+    text-align: center;
+    width: 80%; }
+
+.todoApp {
+  margin: 0 auto;
+  width: 30%;
+  box-shadow: 0px 0px 13px #c7c6c6;
+  padding: 10px;
+  transition-duration: 0.8s; }
+  .todoApp .mainInput {
+    width: 65%;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    padding: 5px;
+    color: #aaaaaa;
+    background: rgba(255, 0, 0, 0); }
+  .todoApp button {
+    margin-bottom: 0px;
+    padding: .45rem 2rem;
+    font-weight: 600;
+    border: none;
+    background: #ffffff0a;
+    color: rgba(172, 172, 172, 0.719);
+    height: 30px;
+    box-shadow: 0px 0px 5px #f5f5f542; }
+  .todoApp button:hover {
+    background: #99999971;
+    transition-duration: 0.8s; }
+  .todoApp li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    transition-duration: 0.8s;
+    cursor: move; }
+    .todoApp li span {
+      margin: 0 5px 0px; }
+    .todoApp li span.todo-text {
+      color: rgba(172, 172, 172, 0.719);
+      font-size: 18px; }
+    .todoApp li .newTodo {
+      border: none;
+      color: #aaaaaa;
+      background: rgba(255, 0, 0, 0);
+      text-align: center;
+      font-size: 15px; }
+    .todoApp li .fa-window-close {
+      color: #b6b6b6;
+      font-size: 14px; }
+  .todoApp li:hover {
+    background: rgba(128, 128, 128, 0.233);
+    border-radius: 5px; }
+  .todoApp li.over {
+    border: 2px solid #464646; }
+  .todoApp ul {
+    padding: 0;
+    margin-top: 10px; }
+
+.todoApp:hover {
+  box-shadow: 0px 0px 25px #c7c6c6;
+  transform: scale(1.02); }
+
+.strikeout {
+  text-decoration: line-through; }
+
+.quoteSection {
+  width: 100%;
+  margin-top: 50px; }
+  .quoteSection p {
+    color: #b1b1b1;
+    font-size: 25px;
+    font-family: 'Special Elite', cursive; }
+
+/*# sourceMappingURL=style.css.map */
